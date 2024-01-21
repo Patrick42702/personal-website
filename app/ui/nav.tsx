@@ -10,7 +10,7 @@ function Menu() {
         md:pb-0 pb-12 md:static
         md:z-auto z-[-1]
         left-0 w-full md:w-auto
-        md:pl-0 transition-all duration-300 ease-in">
+        md:pl-0 transition-all ">
             {menu.map(item => (
                 <li
                     key={item.name}
@@ -29,7 +29,8 @@ function Menu() {
 export function Nav() {
     return (
         <nav>
-            <div className='md:flex items-center justify-between py-2 max-w-[1250px] m-auto'>
+            <div className='md:flex items-center justify-between
+             bg-cyan-900 px-20 py-8 md:h-[100px]'>
                 <h1 className='text-3xl flex-1'>Patrick Muller</h1>
                 <Menu />
             </div>
