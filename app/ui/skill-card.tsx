@@ -2,23 +2,26 @@ import Image from 'next/image'
 
 export function CardWrapper(){
     const python_text = "I have experience coding in python on projects such as ___,___,___"
+    const java_text = "I have experience coding in java on projects such as ___,___,___"
+    const c_text = "I have experience coding in C on projects such as ___,___,___"
+    const web_skills_text = "I have experience coding in html/css/js on projects such as ___,___,___"
     return(
-        <section className='flex flex-wrap justify-between h-[calc(100vh-100px)]'>
+        <section className='flex flex-wrap gap-10 justify-between min-h- h-[calc(100vh-100px)]'>
             <Card lang={"Python"} text={`${python_text}`}
             src={"Python-logo.svg"} alt={"python image"}
             width={80} height={80}
             />
-            <Card lang={"Python"} text={`${python_text}`}
-            src={"Python-logo.svg"} alt={"python image"}
+            <Card lang={"Java"} text={`${java_text}`}
+            src={"Java-4.svg"} alt={"python image"}
             width={80} height={80}
             />
-            <Card lang={"Python"} text={`${python_text}`}
-            src={"Python-logo.svg"} alt={"python image"}
+            <Card lang={"C"} text={`${c_text}`}
+            src={"C-1.svg"} alt={"python image"}
             width={80} height={80}
             />
-            <Card lang={"Python"} text={`${python_text}`}
-            src={"Python-logo.svg"} alt={"python image"}
-            width={80} height={80}
+            <Card lang={"front-end stack"} text={`${web_skills_text}`}
+            src={"html-1.svg"} alt={"python image"}
+            width={80} height={0}
             />
         </section>
     )
