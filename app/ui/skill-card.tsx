@@ -6,7 +6,7 @@ export function CardWrapper(){
     const c_text = "I have experience coding in C on projects such as ___,___,___"
     const web_skills_text = "I have experience coding in html/css/js on projects such as ___,___,___"
     return(
-        <section className='flex flex-wrap gap-10 justify-between min-h- h-[calc(100vh-100px)]'>
+        <section className='flex flex-wrap gap-10 justify-between min-h-full py-8'>
             <Card lang={"Python"} text={`${python_text}`}
             src={"Python-logo.svg"} alt={"python image"}
             width={80} height={80}
