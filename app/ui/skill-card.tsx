@@ -12,11 +12,11 @@ export function CardWrapper(){
             width={80} height={80}
             />
             <Card lang={"Java"} text={`${java_text}`}
-            src={"Java-4.svg"} alt={"python image"}
+            src={"java-4.svg"} alt={"python image"}
             width={80} height={80}
             />
             <Card lang={"C"} text={`${c_text}`}
-            src={"C-1.svg"} alt={"python image"}
+            src={"c-1.svg"} alt={"python image"}
             width={80} height={80}
             />
             <Card lang={"front-end stack"} text={`${web_skills_text}`}
