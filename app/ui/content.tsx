@@ -3,7 +3,8 @@ import Image from 'next/image'
 
 export function About() {
     return (
-        <header id="content" className='flex justify-center items-center h-[calc(100vh-100px)]'>
+        <header id="content" className='sm:pt-12 flex justify-center items-center 
+        md:h-[calc(100vh-100px)] min-h-full'>
             <div className="flex flex-row justify-center content-center max-w-3xl">
                 <Info />
                 <InfoPic />
@@ -20,8 +21,7 @@ function Info() {
             <p className="mt-4">Hello! My name is Patrick Muller and
                 I am a computer science student in my senior year
                 currently studying at Stony Brook University. My goal
-                is to get into the masters program and get my Masters in
-                computer science! </p>
+                is to get into the masters program for computer science! </p>
         </div>
     )
 }
