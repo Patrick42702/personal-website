@@ -1,4 +1,3 @@
-import productive from '@/public/productive.svg'
 import Image from 'next/image'
 
 export function About() {

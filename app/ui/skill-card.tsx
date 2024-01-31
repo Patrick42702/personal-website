@@ -5,7 +5,7 @@ import { CARD_INFO } from '@/utils/utils'
 export function CardWrapper(){
     
     return(
-        <section className='flex flex-wrap gap-10 min-h-full py-8'>
+        <section className='flex flex-wrap justify-center align-middle min-h-full py-8 w-full'>
             {CARD_INFO.map(card => 
                 <Card
                 lang={card.lang}
@@ -22,7 +22,7 @@ export function CardWrapper(){
 function Card({lang, text, width, imgs} : 
     {lang: string, text:string, width: number, imgs: string[][]}) {        
     return (
-        <div className='bg-cyan-900 w-72 h-96 rounded-lg px-2 py-4'>
+        <div className='bg-cyan-900 w-72 h-96 rounded-lg m-4 px-2 py-4'>
             <div className='flex flex-wrap gap-2'>
                 {imgs.map(img =>
                     <Image

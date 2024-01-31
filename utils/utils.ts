@@ -2,7 +2,7 @@ export const CARD_INFO = [
     {
         lang: "Python",
         text: "I have experience coding in python on projects such as ___,___,___",
-        imgs: [["/Python-logo.svg, python image"]],
+        imgs: [["/Python-logo.svg", "python image"]],
     },
     {
         lang: "Java",
@@ -12,7 +12,7 @@ export const CARD_INFO = [
     {
         lang: "C",
         text: "I have experience coding in C on projects such as ___,___,___",
-        imgs: [["/c-1.svg, C image"]],
+        imgs: [["/c-1.svg", "C image"]],
     },
     {
         lang: "Front-End Stack",
@@ -36,4 +36,9 @@ export const CARD_INFO = [
         text: "I have experience working with node.js",
         imgs: [["/nodejs-3.svg","nodejs image"]],
     },
+    {
+        lang: "Github",
+        text: "I have experience working with Github",
+        imgs: [["/github-icon-1.svg","nodejs image"]],
+    }
 ]
