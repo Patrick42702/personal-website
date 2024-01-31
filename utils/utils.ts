@@ -42,3 +42,7 @@ export const CARD_INFO = [
         imgs: [["/github-icon-1.svg","nodejs image"]],
     }
 ]
+
+export const header_info = {
+    title: ""
+}
