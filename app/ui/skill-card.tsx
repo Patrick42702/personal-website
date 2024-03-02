@@ -5,7 +5,7 @@ import { CARD_INFO } from '@/utils/utils'
 export function CardWrapper(){
     
     return(
-        <section className='flex flex-wrap justify-center align-middle min-h-full py-8 w-full'>
+        <section id="skills" className='flex flex-wrap justify-center align-middle min-h-full py-8 w-full'>
             {CARD_INFO.map(card => 
                 <Card
                 lang={card.lang}

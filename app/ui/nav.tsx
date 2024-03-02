@@ -2,6 +2,7 @@ function Menu() {
     const menu = [
         { name: "About", link: "/" },
         { name: "Projects", link: "#projects" },
+        { name: "Skills", link: "#skills" },
         { name: "Contact", link: "#contact" },
     ];
 
